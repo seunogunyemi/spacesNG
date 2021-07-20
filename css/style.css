@@ -262,15 +262,18 @@ input:checked + .slider:before	{
 /*Explore SpacesNG starts here*/
 
 .background_layer	{
-						background-color: black;
+						background-color: rgba(196, 196, 196, 0.4);
 						opacity: 1;
 						border-radius: 10px;
+						margin-bottom: 1em;
 }
 
 section 	{
 				background-color: #AAA7A6;
 				padding: 2em;
 				border-radius: 5px;
+				margin-top: 1em;
+				margin-bottom: 1em;
 }
 
 .small_carousel_explore	{
@@ -324,3 +327,13 @@ section 	{
 						linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
 						linear-gradient(0deg, #C4C4C4, #C4C4C4);
 }
+
+@media only screen and (max-width: 360px)	{
+												.small_carousel_explore	{
+																			width: 200px;
+												}
+												.explore_rating_table	{
+																			margin-left: 2em;
+																			margin-top: 1em;
+												}
+} 
