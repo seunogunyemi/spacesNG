@@ -6,6 +6,12 @@
   font-style: normal;
 }
 
+@font-face	{
+				font-family: Lato;
+				src: url('..fonts/..fonts/Lato-BlackItalic.ttfLato-Black.ttf');
+				src: url('..fonts/Lato-BlackItalic.ttf');
+}
+
 /*Navigation Section*/
 
 .navbar	{
@@ -326,6 +332,11 @@ section 	{
 						background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
 						linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
 						linear-gradient(0deg, #C4C4C4, #C4C4C4);
+}
+
+.phone, .address	{
+						color: #c4c4c4;
+						font-style: italic;
 }
 
 @media only screen and (max-width: 360px)	{
