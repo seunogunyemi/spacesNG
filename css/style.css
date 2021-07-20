@@ -1,0 +1,326 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.2.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*Navigation Section*/
+
+.navbar	{
+				border-color: #c4c4c4;
+				background-color: #c4c4c4;
+}
+
+.logo_top	{
+				margin-left: 25px;
+}
+
+.img_profile	{
+					width: 24px;
+					float: right;
+					margin-left: 5px;
+					margin-right: 10px;
+}
+
+.user_name	{
+				font-size: 12px;
+				float: right;
+}
+
+.background_img1	{
+						float: right;
+}
+/*footer section start*/
+.footer_section	{
+					background-color: #c4c4c4;
+					padding-top: 48px;
+}
+.listed_links, .listed_items	{
+									list-style-type: none;
+									color: black;
+									text-decoration: none;
+									margin-bottom: 20%;
+}
+.listed_links, .listed_items :hover	{
+									list-style-type: none;
+									color: black;
+									text-decoration: none;
+}
+.subscribe	{
+				height: 36px;
+				border-radius: 5px;
+				border: 1px solid #ffffff;
+				width: 70%;
+				margin-top: 5%;
+}
+.footer_bottom	{
+					background-color: #c4c4c4;
+}
+.copywrite	{
+				display: block;
+				text-align: center;
+}
+.social1	{
+				margin-left: 5px;
+				height: 24px;
+				width: 24px;
+}
+
+/*index page CSS begins here*/
+.search_bar	{
+				height: 36px;
+				border-radius: 20px;
+				width: 60%;
+				border: 1px solid #c4c4c4;
+				margin-bottom: 5px;
+				text-align: center;
+}
+
+.slide	{
+			width: 600px;
+			text-align: center;
+}
+
+#SpacesNG_carousel	{
+						margin: auto;
+}
+
+.carousel-caption	{
+						background: rgba(255, 255, 255, 0.75);
+						color: black;
+}
+.user_location	{
+					margin-top: 20px;
+					margin-bottom: 20px;
+}
+
+.grey	{color: #c4c4c4;
+}
+
+.featured_img	{
+					width: 300px;
+					height: 200px;
+					border-radius: 10px;
+					filter: blur(1px);
+					margin-top: 5px;
+}
+
+.services_img	{
+					margin-top: 5px;
+}
+
+.featured_services {
+						margin-bottom: 20px;
+
+}
+
+.bottom_footer	{
+					background-color: #AAA7A6;
+}
+
+.copywrite	{
+				margin-top: 10px;
+				margin-bottom: 10px;
+}
+
+.Our_Services	{
+					width: 300px;
+					height: 200px;
+					border-radius: 5px;
+}
+
+.spacesNG_services	{
+						margin-top: 20px;
+}
+
+.last_service_row	{
+						margin-bottom: 20px;
+}
+
+.marketing	{
+				margin-bottom: 50px;
+}
+
+.underline	{text-decoration: underline;}
+
+body	{
+			background-image: url('file:///C:/Users/user/Desktop/SpacesNG/bg_img3.png'), url('file:///C:/Users/user/Desktop/SpacesNG/bg_img2.png'), url('file:///C:/Users/user/Desktop/SpacesNG/bg_img1.png');
+			background-repeat: no-repeat;
+			background-position: bottom left, center, top right;
+}
+
+/*location switch here*/
+
+.toggle	{
+			position: relative;
+			margin-top: 10px;
+}
+
+.toggle input	{
+					position: absolute;
+					opacity: 0;
+					width: 0;
+					height: 0;
+}
+
+.toggle .On_Off	{
+					color: black;
+					margin-top: 5px;
+					text-align: center;
+					display: block;
+					font-size: 7px;
+}
+
+.slider	{
+			position: relative;
+			display: block;
+			cursor: pointer;
+			background-color: #c4c4c4;
+			transition: 0.4s;
+			width: 50px;
+			height: 20px;
+}
+
+.slider:before	{
+					content: "";
+					position: absolute;
+					height: 20px;
+					background-color: #ffffff;
+					background-image: url('file:///C:/Users/user/Desktop/SpacesNG/grain.svg');
+					background-size: 20px;
+					width: 25px;
+					border: 1px solid black;
+					top:;
+					left: 1px;
+}
+
+input:checked + .slider	{
+							background-color: white;
+							box-shadow: inset 0 0 12px #c4c4c4;
+}
+
+input:checked + .slider:before	{
+									transform: translateX(30px);
+}
+
+.slider.round	{
+					border-radius: 5px;
+}
+
+.slider.round::before	{
+							border-radius: 5px;
+}
+
+.carousel-indicators	{
+							visibility: hidden;
+}
+
+.featured_text	{
+					text-align: left;
+}
+
+@media only screen and (max-width: 360px)	{
+											.subscribe	{
+															margin-bottom: 8px;
+											}
+											.search_location	{
+																	display: block;
+																	width: 100%;
+											}
+											#SpacesNG_carousel	{
+																	margin: auto;
+																	width: 300px;
+																	height: 150px;
+											}
+											.user_location	{
+																margin-top: 100px;
+											}
+											.carousel-caption	{
+																	font-size: 9px;
+											}
+											.carousel-indicators	{
+																	visibility: hidden;
+											}
+											.search_button	{
+																width: 200px;
+																margin-left: 40px;
+											}
+											.featured_header1	{
+																	font-size: 12px;
+																	font-weight: bolder;
+																	text-align: center;
+											}
+											.marketing_text	{
+															text-align: right;
+											}
+
+}
+/*Index Page ends here*/
+
+/*Explore SpacesNG starts here*/
+
+.background_layer	{
+						background-color: black;
+						opacity: 1;
+						border-radius: 10px;
+}
+
+section 	{
+				background-color: #AAA7A6;
+				padding: 2em;
+				border-radius: 5px;
+}
+
+.small_carousel_explore	{
+							width: 20em;
+							height:12em;
+							margin-top: 1em;
+							margin-left: 2em;
+}
+
+
+.business_info	{
+					background-color: white;
+					border-radius: 0.5em;
+					box-shadow: 0px 4px 4px 0px;
+}
+
+.rating	{
+			text-align: center;
+			margin-top: 1.5em;
+}
+
+.rating_text	{
+					font-size: 12px;
+}
+
+.action_btns	{
+					margin-top: 1em;
+}
+
+.explore_rating_table, td	{
+							border: hidden;
+							/*margin-top: 3px;*/
+}
+
+.explore_rating_table	{
+							margin-top: 0.5em;
+							margin-left: 3em;
+}
+
+.marketing_content	{
+						font-size: 12px;
+}
+
+.marketing_button	{
+						/*box-shadow: 0px 0px 4px 0px;*/
+						box-shadow: 0px 4px 4px 0px #00000040;
+						box-shadow: 0px 4px 4px 0px #00000040;
+						box-shadow: 0px 4px 4px 0px #00000040;
+						box-shadow: 0px 4px 4px 0px #00000040;
+						background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+						linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+						linear-gradient(0deg, #C4C4C4, #C4C4C4);
+}
