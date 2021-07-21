@@ -22,14 +22,136 @@
           <div class="navbar">
             <div class="dropdown">
             <img class="logo_top" src="img/spaces.NG.png">
-            <img class="img_profile dropdown-toggle" type="button" data-toggle="dropdown" src="img/user_img.png">
-              <ul class="dropdown-menu pull-right">
-                  <li class="dropdown_item"><a href="#">My Account</a></li>
-                  <li class="dropdown_item"><a href="#">My Recent Searches</a></li>
-                  <li class="dropdown_item"><a href="#">Log Out</a></li>
-                </ul>
-              <span><i class="user_name">Welcome, Seun Ogunyemi</i></span>
+            <span><a class="Login" data-toggle="modal" data-target="#AccountLogin" href="#"><i class="user_name Login">Login</i></a></span>
               </div>
+              <!-- Login Modal starts here -->
+                    <div class="modal fade" id="AccountLogin" tabindex="-1" role="dialog" aria-labelledby="UserLogin" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header centralise_content">
+                          <h1 class="modal-title" id="UserLogin">Welcome to SpacesNG</h1>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="modal-header">
+                                <h5>Log in to your Account</h5>
+                              </div>
+                              <form>
+                                <label>
+                                  <button class="LoginWithGoogle btn btn-danger"><a class="LoginWithSocial" href="#"><img class="Google-icon" src="img/Google_btn.png">Login with Google</a></button>
+                                  <button class="LoginWithGoogle btn btn-primary"><a class="LoginWithSocial" href="#"><img class="Facebook-icon" src="img/facebook_btn.png">Login with Facebook</a></button>
+                                </label>
+                                
+                                <hr>
+
+                                  <label>
+                                    Email address:
+                                  </label><br>
+                                  <input type="email" class="EmailAddress" name="Email" placeholder="Your email Address">
+<br>
+                                  <label class="MyPassword">
+                                    Password:<br>
+                                  </label>
+                                  <input type="password" class="EmailAddress" name="password" placeholder="Your Password">
+<br>
+                                  <input type="checkbox" class="checkbox" name="checkbox"><i class="RememberMe">Remember me</i>
+<br>
+                                <button class="btn EmailAddress">Login</button>
+                                <br>
+                                <div class="Login_bottom">
+                                <a class="DarkURL" href="#">forgot your password?</a>
+                                <br>
+                                <p class="small">New to SpacesNG?<a data-toggle="modal" data-target="#CreateAccount" class="DarkURL" href="#">Sign Up</a></p>
+                                </div>
+                              </form>
+                            </div>
+
+                            <div class="col-md-6">
+                              <img class="img-fluid img-responsive LoginImg" src="img/officechair.png">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                 <!-- Login Modal ends here -->
+                 <!-- Create a New Account Modal Starts here -->
+                 <div class="modal fade" id="CreateAccount" tabindex="-1" role="dialog" aria-labelledby="UserSignUp" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title" id="CreateAccount">Create your Account</h1>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                              </button>
+                              <div class="modal-body">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <!-- <div class="modal-header">
+                                <h5>Log in to your Account</h5>
+                              </div> -->
+                              <form>
+                                <label>
+                                    Email address:
+                                  </label><br>
+                                  <input type="email" class="EmailAddress" name="Email" placeholder="Your email Address">
+                                  <br>
+
+                                  <label class="ConfirmEmailAddress">
+                                    Confirm Email address:
+                                  </label><br>
+                                  <input type="email" class="EmailAddress" name="Email" placeholder="Your email Address">
+                                  <br>
+
+
+                                  <label class="MyPassword">
+                                    Password:<br>
+                                  </label>
+                                  <input type="password" class="EmailAddress" name="password" placeholder="Your Password">
+                                  <br>
+
+                                  <label class="MyPassword">
+                                    Confirm Password:<br>
+                                  </label>
+                                  <input type="password" class="EmailAddress" name="password" placeholder="Your Password">
+                                  <br>
+
+                                  <input type="checkbox" class="checkbox" name="checkbox"><i class="RememberMe">Remember me</i>
+                                <br>
+                                  <input type="checkbox" class="checkbox" name="checkbox"><i class="RememberMe">I have read SpaceNG <a href="#"> terms and conditions</a> of Service</i>
+                                <br>
+                                <input type="checkbox" class="checkbox" name="checkbox"><i class="RememberMe">Sign Up to receive latest offers and updates</i>
+                                <br>
+
+                                <button class="btn EmailAddress SignUp_btn"><a class="SignUp_link" href="#">Sign Me Up</a></button>
+                                <br>
+
+                                <button class="btn EmailAddress"><a class="SignUp_link" href="#">Back</a></button>
+                                <br>
+                                
+                              </form>
+                            </div>
+
+                            <div class="col-md-6">
+                              <img class="img-fluid img-responsive LoginImg" src="img/officechair.png">
+                            </div>
+                          </div>
+                        </div>
+                   </div>
+                    </div>
+                </div>
+                            </div>
+                          </div>
+                        
+                      </div>
+                    </div>
+                 </div>
+                 <!-- Create a New Account Modal Ends here -->
           </div>
         </div>
       </div>
