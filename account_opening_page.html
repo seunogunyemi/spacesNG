@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Welcome to Spaces.NG</title>
+    <title>Opening Account on SpacesNG</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -23,7 +23,7 @@
         </div>
       </div>
       <!-- background body -->
-        <div class="container">
+        <div class="container registration_holder" id="FirstRegPage">
           <div class="header">
               <h1>Let's get to know you some more</h1>
               <div class="progress">
@@ -32,9 +32,9 @@
             </div>
           <div class="row">
             <div class="col-md-6">
-              <input type="name" name="name" placeholder="your business name">
+              <input class="register" type="name" name="name" placeholder="What is Your Business/Company Name">
               <br>
-              <input type="name" name="name" placeholder="your business address">
+              <input class="register" type="name" name="name" placeholder="What Country is your business in?">
               <br>
               <select id="country" name="country">
                         <option selected>Select your Country</option>
@@ -291,15 +291,135 @@
                         <option value="ZM">Zambia</option>
                         <option value="ZW">Zimbabwe</option>
               </select>
-              <div>
-                
+
+              <select id="state" name="state">
+                <option selected>Select State of Business Registration</option>
+                <option value="FT">Abuja</option>
+                <option value="AB">Abia</option>
+                <option value="AN">Anambra</option>
+                <option value="BU">Bauchi</option>
+                <option value="BA">Bayelsa</option>
+                <option value="BE">Benue</option>
+                <option value="BO">Borno</option>
+                <option value="CR">Cross River</option>
+                <option value="DE">Delta</option>
+                <option value="EB">Ebonyi</option>
+                <option value="ED">Edo</option>
+                <option value="EK">Ekiti</option>
+                <option value="GM">Gombe</option>
+                <option value="IM">Imo</option>
+                <option value="JG">Jigawa</option>
+                <option value="KD">Kaduna</option>
+                <option value="KN">Kano</option>
+                <option value="KT">Katsina</option>
+                <option value="KE">Kebbi</option>
+                <option value="KO">Kogi</option>
+                <option value="KW">Kwara</option>
+                <option value="LA">Lagos</option>
+                <option value="NS">Nasarawa</option>
+                <option value="NG">Niger</option>
+                <option value="OG">Ogun</option>
+                <option value="ON">Ondo</option>
+                <option value="OS">Osun</option>
+                <option value="OY">Oyo</option>
+                <option value="PT">Plateau</option>
+                <option value="RI">Rivers</option>
+                <option value="SO">Sokoto</option>
+                <option value="TA">Taraba</option>
+                <option value="YO">Yobe</option>
+                <option value="ZM">Zamfara</option>
+                <option value="NA">Outside Nigeria</option>
+              </select>
+
+              <select name="LocalGovt" class="LocalGovt">
+                <option selected>Select Local Government Area</option>
+                <option value="0">Ikeja</option>
+              </select>
+              
+              <div class="more_info">
+                <input class="additional_info" type="text" name="CountyOrProvince" placeholder="for outside Nigeria, provide your State/County">
+                <br>
+                <input class="additional_info" type="email" name="email address" placeholder="provide alternative email address, if any">
+                <br>
+                <input class="additional_info" type="phone" name="phone" placeholder="Enter Phone number in this format +XXX-XXX-XXX-XXXX">
+                <br>
+                <input class="additional_info" type="phone" name="phone" placeholder="Enter Alternative Phone number in this format +XXX-XXX-XXX-XXXX">
+                <br>
               </div>
-            </div>
+
+              <div class="RegButton_navigation">
+                <a class="SignUp_link" href="#"><button class="btn EmailAddress RegPg1" id="toggle-button1"><b>NEXT >></b></button></a>
+                <br>
+                <a class="SignUp_link" href="#"><button class="btn EmailAddress RegPg1"><b>SAVE AND CONTINUE LATER</b></button></a>
+                <br>
+                <a class="SignUp_link" href="#"><button class="btn EmailAddress RegPg1 Cancel"><b>CANCEL</b></button></a>
+              </div>
+
+             </div>
+
+             <div class="col-md-6 account_page">
+               <img class="AccountOpeningBgImg" src="img/OfficeDesk.jpg">
+             </div>
           </div>
         </div>
     <!-- background body ends -->    
     </div>
-    
+    <!-- Second Page of Registration Forms starts here -->
+    <div class="container registration_holder" id="SecondRegPage">
+          <div class="header">
+              <h1>Let's get to know you some more</h1>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <label class="upload_forms">Upload Business Registration Certificate:</label>
+                <input type="file" name="file" class="EmailAddress Upload form-control" placeholder="Upload Business Registration Certificates">
+                <i class="small">Provide CAC documents or Evidence of Business Registration or an Equivalent of these</i>
+                <br>
+                <label class="upload_forms">Evidence of Address:</label>
+                <input type="file" name="file" class="EmailAddress Upload form-control">
+                <i class="small">Provide Evidence of your Business Address. Utility, Rent or LAWMA bills and receipts are acceptable</i>
+                <br>
+                <label class="upload_forms">Upload A Government Issued Identification:</label>
+                <input type="file" name="file" class="form-control Upload EmailAddress">
+                <i class="small">You can upload a copy of your international passport, drivers' licence, voters' card or NIN slip</i>
+                <br>
+                <label class="upload_forms">Upload a Passport Photograph:</label>
+                <input type="file" name="file" class="EmailAddress Upload form-control">
+                <i class="small">Upload your most recent passport photograph</i>
+                <br>
+                <input type="text" name="text" class="EmailAddress additional_info" placeholder="Name of your Company's Primary Contact Person">
+                <br>
+                <input type="phone" name="phone" class="EmailAddress additional_info" placeholder="Phone Number of Primary Contact Person">
+                <br>
+                <button class="RegPg1 EmailAddress btn"><a class="SignUp_link" href="#"> << BACK</a></button>
+                <br>
+                <button class="RegPg1 EmailAddress btn"><a class="SignUp_link" href="#"> SAVE AND CONTINUE LATER</a></button>
+                <br>
+                <button class="RegPg1 EmailAddress btn"><a class="SignUp_link" href="#"> NEXT >> </a></button>
+                <br>
+                <button class="RegPg1 EmailAddress btn lastBtn"><a class="SignUp_link" href="#"> CANCEL</a></button>
+              </div>
+
+              <div class="col-md-6">
+                <img class="AccountOpeningBgImg" src="img/OfficeDesk.jpg">
+              </div>
+            </div>
+
+            <!-- third registration page starts here -->
+            <div class="container registration_holder" id="ThirdRegPage">
+                <div class="header">
+              <h1>Let's get to know you some more</h1>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            </div>
+
+    </div>
     <!-- footer begins here -->
     <div class="row top_footer">
       <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 footer_section">
@@ -336,7 +456,7 @@
         <span><i class="copywrite">SpacesNG circa 2012</i></span>
       </div>
     </div>
-
+  <script type="text/javascript" src="main.js"></script>
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </div>

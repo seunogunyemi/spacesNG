@@ -26,7 +26,7 @@ option 	{
 			font-size: 18px;
 }
 
-.input-group-prepend, select, .range	{
+.input-group-prepend, .custom-select, .range	{
 											margin-left: 5em;
 											width: 30em;
 }
@@ -532,3 +532,73 @@ section 	{
 					text-decoration: none;
 }
 /*modal for signup ends here*/
+
+/*Account Opening Forms Start here*/
+/*Account Opening Form Page 1*/
+.progress	{
+				margin-top: 3em;
+				margin-bottom: 3em;
+}
+.register, .additional_info	{
+								width: 90%;
+								border: 1px solid #c4c4c4;
+								height: 32px;
+								margin-top: 2em;
+								border-radius: 2px;
+}
+
+#country, .LocalGovt, #state, .bank	{
+									margin-top: 2em;
+									box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+									margin-right: 2em;
+									width: 90%;
+}
+
+.bank 	{
+			/*margin-bottom: 2em;*/
+}
+
+.buttonsAtTheBottom		{
+							margin-top: 25em;
+}
+
+.registration_holder		{
+									box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+									margin-bottom: 3em;
+									background: rgba(196, 196, 196, 0.6);
+}
+
+.AccountOpeningBgImg		{
+									width: 100%;
+}
+
+.RegButton_navigation	{
+							margin-top: 3em;
+}
+
+.SignUp_link:hover 	{
+						text-decoration: none;
+						color: black;
+}
+
+.RegPg1	{
+			margin-top: 1em;
+}
+
+.Cancel	{
+			margin-bottom: 0.5em;
+}
+
+.register, .additional_info 	{
+									text-align: center;
+}
+
+.lastBtn	{
+				margin-bottom: 0.5em;
+}
+
+@media only screen and (max-width: 360px)	{
+												.AccountOpeningBgImg	{
+																			display: none;
+												}
+}
