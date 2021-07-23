@@ -207,7 +207,7 @@ form 	{
 }
 
 body	{
-			background-image: url('file:///C:/Users/user/Desktop/SpacesNG/bg_img3.png'), url('file:///C:/Users/user/Desktop/SpacesNG/bg_img2.png'), url('file:///C:/Users/user/Desktop/SpacesNG/bg_img1.png');
+			background-image: url('https://res.cloudinary.com/dfwef4nfr/image/upload/v1627034801/SpacesNG/bg_img3_fo219k.png'), url('https://res.cloudinary.com/dfwef4nfr/image/upload/v1627034801/SpacesNG/bg_img2_hzrml3.png'), url('https://res.cloudinary.com/dfwef4nfr/image/upload/v1627034801/SpacesNG/bg_img1_lwvli9.png');
 			background-repeat: no-repeat;
 			background-position: bottom left, center, top right;
 }
@@ -249,7 +249,7 @@ body	{
 					position: absolute;
 					height: 20px;
 					background-color: #ffffff;
-					background-image: url('file:///C:/Users/user/Desktop/SpacesNG/grain.svg');
+					background-image: url('https://res.cloudinary.com/dfwef4nfr/image/upload/v1627035047/SpacesNG/grain_cxkpx8.svg');
 					background-size: 20px;
 					width: 25px;
 					border: 1px solid black;
