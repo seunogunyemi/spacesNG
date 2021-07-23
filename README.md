@@ -1,2 +1,2 @@
 # spacesNG
-Having designed Spaces.NG and not pleased with the turnout by the FE team, I must now right the wrongs of amateurs and claim the spot to the title
+Having designed Spaces.NG, I am now taking an experimental approach to developing the project by myself. Wish me all the very best!
