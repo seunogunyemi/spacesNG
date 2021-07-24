@@ -165,6 +165,22 @@ form 	{
 					margin-top: 5px;
 }
 
+.featured_text	{
+					width: 300px;
+					cursor: pointer;
+					position: relative;
+					top: -9em;
+					background: rgba(196, 196, 196, 0.6);
+					padding-left: 2px;
+					padding-right: 2px;
+					padding-top: 5px;
+					padding-bottom: 5px;
+}
+
+.dummy_text	{
+				visibility: hidden;
+}
+
 .services_img	{
 					margin-top: 5px;
 }
@@ -172,6 +188,32 @@ form 	{
 .featured_services {
 						margin-bottom: 20px;
 
+}
+
+.button_view	{
+					float: right;
+					box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+					background: rgba(196, 196, 196, 1);
+}
+
+.explore_services	{
+						position: relative;
+						top: -5em;
+						margin-left: 2em;
+						width: 250px;
+}
+
+.service_status	{
+					color: white;
+					font-weight: bold;
+					background: rgba(196, 196, 196, 0.6);
+}
+
+.button_explore	{
+					color: white;
+					margin-left: 5em;
+					background: linear-gradient(180deg, #C4C4C4 0%, rgba(196, 196, 196, 0) 100%);
+					box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .bottom_footer	{
