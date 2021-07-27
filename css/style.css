@@ -644,3 +644,22 @@ section 	{
 																			display: none;
 												}
 }
+
+/*account opening sucess page*/
+
+.success	{
+				text-align: center;
+}
+
+.darkTick	{
+				margin-left: 8em;
+				margin-top: 6em;
+}
+
+.success-bg	{
+				/*background: rgba(249, 249, 249, 1);*/
+}
+
+.success-pg-btn	{
+					margin-top: 30em;
+}
