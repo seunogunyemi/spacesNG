@@ -652,14 +652,26 @@ section 	{
 }
 
 .darkTick	{
-				margin-left: 8em;
+				margin-left: 7em;
 				margin-top: 6em;
 }
 
-.success-bg	{
-				/*background: rgba(249, 249, 249, 1);*/
+.success-pg-btn	{
+					margin-top: 25em;
 }
 
-.success-pg-btn	{
-					margin-top: 30em;
+.success-below-btn	{
+						margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 360px)	{
+												.darkTick	{
+																margin-left: 4px;
+												}
+												.success-pg-btn	{
+																	margin-top: 10em;
+												}
+												.success-below-btn	{
+																		margin-bottom: 2em;
+												}
 }
