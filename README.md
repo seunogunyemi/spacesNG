@@ -5,3 +5,4 @@ SpacesNG is a website App that let's you browse through a listing of short-lease
 SpaceNG also lets business owners chat and engage with customers with its live Chat feature. 
 Customers can book or make reservations for their desired Office spaces as well as make instant payment online using available payment channels.
 Prospecting customers can open an account on SpacesNG to enjoy various discounts and promotions or choose to just browse available spaces/services without making any commitments.
+See the branch named *Fresh* for the full HTML version of this project or check it out where its hosted at
